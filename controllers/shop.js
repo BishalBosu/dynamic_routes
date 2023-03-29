@@ -49,7 +49,7 @@ exports.postCart = (req, res, next) =>{
     Cart.addProduct(prodId, product.price)
 
   })
-  res.redirect('/');
+  res.redirect('/cart');
 
 }
 

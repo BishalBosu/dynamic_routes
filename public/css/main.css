@@ -10,6 +10,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
 main {
   padding: 1rem;
   margin: auto;
@@ -21,6 +23,13 @@ form {
 
 .centered{
   text-align: center;
+}
+.image{
+height: 20rem;
+}
+
+.image img{
+  height: 100%;
 }
 
 .main-header {
